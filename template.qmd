@@ -1,8 +1,8 @@
 ---
-title: "Your awesome project title"
+title: "An introduction to using Quarto for collaboration"
 author:
-  name: "You et al"
-  affiliation: "From whence you hail"
+  name: "Lauren Hemara"
+  affiliation: "The University of Auckland"
 date: today
 bibliography: refs.bib
 from: markdown+emoji
@@ -10,6 +10,7 @@ format:
   html:
     code-fold: false
     link-external-newwindow: true
+    toc: true
 theme:
   light: flatly
   dark: darkly
@@ -17,7 +18,7 @@ theme:
 
 :::{.callout-tip}
 # YAML exercise
-- Fill the `title: ` and `name: ` and `affiliation: ` fieds.
+- Fill the `title: ` and `name: ` and `affiliation: ` fields.
 
   - a couple of handy entries are already completed
 
